@@ -1,12 +1,12 @@
 # class object support attribute reference and instantiation
 # attribute reference
-# class Squre:
-#     side = 5
+class Squre:
+    side = 5
 
-#     def start():
-#         print("hello bangladesh") 
-# print(Squre.side)
-# Squre.start()
+    def start():
+        print("hello bangladesh") 
+print(Squre.side)
+Squre.start()
 
 
 # instantiation 

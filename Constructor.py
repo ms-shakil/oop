@@ -3,11 +3,13 @@ class Student:
         self.roll = roll
         self.gpa = gpa
 
+    def __str__(self):
+        return ("Roll = {self.roll} gpa =  {self.gpa}")
+
     def display(self):
-        print("Roll:", self.roll, "gpa:", self.gpa)
+        print("Roll: {self.roll}, gpa:,{ self.gpa}")
 
 
 rahim = Student(22, 3.45)
-rahim.display()
-payer = Student(11, 5.00)
-payer.display()
+
+print(rahim)
